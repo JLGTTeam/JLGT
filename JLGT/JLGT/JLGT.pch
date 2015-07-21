@@ -6,5 +6,10 @@
 //  Copyright (c) 2015年 ds. All rights reserved.
 //
 
+#import "UIColor+Category.h"
+#import "UIView+Category.h"
 
+#define SCREEN_BOUNDS    ([UIScreen mainScreen].bounds)
+#define SCREEN_WIDTH     ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT    ([UIScreen mainScreen].bounds.size.height)
 

@@ -14,6 +14,10 @@
 		55CBCDF31B5E99F10070B557 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CBCDF11B5E99F10070B557 /* LaunchScreen.xib */; };
 		55CBCDFF1B5E99F10070B557 /* JLGTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCDFE1B5E99F10070B557 /* JLGTTests.m */; };
 		55CBCE0F1B5E9A9C0070B557 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE0E1B5E9A9C0070B557 /* MainViewController.m */; };
+		55CBCE161B5EB4230070B557 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE131B5EB4230070B557 /* UIColor+Category.m */; };
+		55CBCE171B5EB4230070B557 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE151B5EB4230070B557 /* UIView+Category.m */; };
+		55CBCE1A1B5EB4640070B557 /* JLGTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE191B5EB4640070B557 /* JLGTNavigationController.m */; };
+		55CBCE1D1B5EB6040070B557 /* JLGTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE1C1B5EB6040070B557 /* JLGTBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		55CBCE0D1B5E9A9C0070B557 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		55CBCE0E1B5E9A9C0070B557 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		55CBCE101B5EB2790070B557 /* JLGT.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLGT.pch; sourceTree = "<group>"; };
+		55CBCE121B5EB4230070B557 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		55CBCE131B5EB4230070B557 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		55CBCE141B5EB4230070B557 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		55CBCE151B5EB4230070B557 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		55CBCE181B5EB4640070B557 /* JLGTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLGTNavigationController.h; sourceTree = "<group>"; };
+		55CBCE191B5EB4640070B557 /* JLGTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLGTNavigationController.m; sourceTree = "<group>"; };
+		55CBCE1B1B5EB6040070B557 /* JLGTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLGTBaseViewController.h; sourceTree = "<group>"; };
+		55CBCE1C1B5EB6040070B557 /* JLGTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLGTBaseViewController.m; sourceTree = "<group>"; };
 		B05D5D1DA1BDFA378E626B11 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D56598E242983DE70C48E303 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FD494FD02F919B3A14510425 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +141,7 @@
 		55CBCE081B5E9A7C0070B557 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				55CBCE111B5EB3A80070B557 /* Category */,
 				55CBCE091B5E9A7C0070B557 /* Controller */,
 				55CBCE0A1B5E9A7C0070B557 /* Model */,
 				55CBCE0B1B5E9A7C0070B557 /* Other */,
@@ -140,6 +153,10 @@
 		55CBCE091B5E9A7C0070B557 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				55CBCE181B5EB4640070B557 /* JLGTNavigationController.h */,
+				55CBCE191B5EB4640070B557 /* JLGTNavigationController.m */,
+				55CBCE1B1B5EB6040070B557 /* JLGTBaseViewController.h */,
+				55CBCE1C1B5EB6040070B557 /* JLGTBaseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -163,6 +180,17 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		55CBCE111B5EB3A80070B557 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				55CBCE121B5EB4230070B557 /* UIColor+Category.h */,
+				55CBCE131B5EB4230070B557 /* UIColor+Category.m */,
+				55CBCE141B5EB4230070B557 /* UIView+Category.h */,
+				55CBCE151B5EB4230070B557 /* UIView+Category.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		837DDF63FD906A80F66AA160 /* Frameworks */ = {
@@ -318,7 +346,11 @@
 			files = (
 				55CBCDE81B5E99F10070B557 /* AppDelegate.m in Sources */,
 				55CBCE0F1B5E9A9C0070B557 /* MainViewController.m in Sources */,
+				55CBCE1D1B5EB6040070B557 /* JLGTBaseViewController.m in Sources */,
+				55CBCE1A1B5EB4640070B557 /* JLGTNavigationController.m in Sources */,
 				55CBCDE51B5E99F10070B557 /* main.m in Sources */,
+				55CBCE171B5EB4230070B557 /* UIView+Category.m in Sources */,
+				55CBCE161B5EB4230070B557 /* UIColor+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,7 @@
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 200, 30)];
     label.text = @"hello world--截了个图!";
     [self.view addSubview:label];
+    NSLog(@"We Are Best! --add By 蒋宏光");
 }
 
 

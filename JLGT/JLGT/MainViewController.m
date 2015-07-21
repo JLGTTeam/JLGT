@@ -24,6 +24,10 @@
     [self.view addSubview:label];
     NSLog(@"We Are Best! --add By 蒋宏光");
     NSLog(@"Xcode提交测试---by coderAO");
+    NSLog(@"饿@");
+    
+    
+
 }
 
 - (void)test

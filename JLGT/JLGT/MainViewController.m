@@ -19,8 +19,12 @@
 
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 200, 30)];
     label.text = @"hello world--截了个图!";
+    // 修改了字体大小
+    label.font = [UIFont systemFontOfSize:20];
     [self.view addSubview:label];
     NSLog(@"We Are Best! --add By 蒋宏光");
+    NSLog(@"饿@");
+    
     
 
 }

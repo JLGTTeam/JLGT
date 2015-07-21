@@ -21,7 +21,13 @@
     label.text = @"hello world--截了个图!";
     [self.view addSubview:label];
     NSLog(@"We Are Best! --add By 蒋宏光");
+    
+
 }
 
+- (void)test
+{
+    NSLog(@"----lpy");
+}
 
 @end

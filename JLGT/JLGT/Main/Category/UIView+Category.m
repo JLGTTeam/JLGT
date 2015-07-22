@@ -71,7 +71,7 @@
 - (void)setSize:(CGSize)size {
     CGRect frame = self.frame;
     frame.size = size;
-    self.frame = CGRectMake(0, 0, size.width, size.height);
+    self.frame = frame;
 }
 
 - (CGSize)size {

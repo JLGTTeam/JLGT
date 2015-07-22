@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JLGTBaseViewController : UIViewController
+@interface JTBaseViewController : UIViewController
 
 @end

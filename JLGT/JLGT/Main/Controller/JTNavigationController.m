@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 ds. All rights reserved.
 //
 
-#import "JLGTNavigationController.h"
+#import "JTNavigationController.h"
 
 @interface JLGTNavigationController ()
 

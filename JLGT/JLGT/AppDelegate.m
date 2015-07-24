@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MainViewController.h"
+#import "JTHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,8 +20,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
 
     self.window.backgroundColor = [UIColor whiteColor];
-    MainViewController *mainVC = [[MainViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    JTHomeViewController *homeVC = [[JTHomeViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeVC];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;

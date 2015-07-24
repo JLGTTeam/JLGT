@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5524FB411B6201D800684C1D /* JTAlipayWealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5524FB401B6201D800684C1D /* JTAlipayWealthViewController.m */; };
+		5524FB491B62024500684C1D /* JTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5524FB471B62024500684C1D /* JTHomeViewController.m */; };
+		5524FB4A1B62024500684C1D /* JTHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5524FB481B62024500684C1D /* JTHomeViewController.xib */; };
 		557381D34CC4961F38671611 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD494FD02F919B3A14510425 /* libPods.a */; };
 		55CBCDE51B5E99F10070B557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCDE41B5E99F10070B557 /* main.m */; };
 		55CBCDE81B5E99F10070B557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCDE71B5E99F10070B557 /* AppDelegate.m */; };
 		55CBCDF01B5E99F10070B557 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CBCDEF1B5E99F10070B557 /* Images.xcassets */; };
 		55CBCDF31B5E99F10070B557 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CBCDF11B5E99F10070B557 /* LaunchScreen.xib */; };
 		55CBCDFF1B5E99F10070B557 /* JLGTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCDFE1B5E99F10070B557 /* JLGTTests.m */; };
-		55CBCE0F1B5E9A9C0070B557 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE0E1B5E9A9C0070B557 /* MainViewController.m */; };
 		55CBCE161B5EB4230070B557 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE131B5EB4230070B557 /* UIColor+Category.m */; };
 		55CBCE171B5EB4230070B557 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE151B5EB4230070B557 /* UIView+Category.m */; };
 		55CBCE1A1B5EB4640070B557 /* JTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE191B5EB4640070B557 /* JTNavigationController.m */; };
 		55CBCE1D1B5EB6040070B557 /* JTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE1C1B5EB6040070B557 /* JTBaseViewController.m */; };
+		55D3BB201B60735000AE7033 /* JTAlipayConversactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D3BB1F1B60735000AE7033 /* JTAlipayConversactionViewController.m */; };
+		55D3BB261B60737100AE7033 /* JTUnreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D3BB251B60737100AE7033 /* JTUnreadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,18 +35,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5524FB3F1B6201D800684C1D /* JTAlipayWealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAlipayWealthViewController.h; sourceTree = "<group>"; };
+		5524FB401B6201D800684C1D /* JTAlipayWealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAlipayWealthViewController.m; sourceTree = "<group>"; };
+		5524FB461B62024500684C1D /* JTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHomeViewController.h; sourceTree = "<group>"; };
+		5524FB471B62024500684C1D /* JTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHomeViewController.m; sourceTree = "<group>"; };
+		5524FB481B62024500684C1D /* JTHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTHomeViewController.xib; sourceTree = "<group>"; };
 		55CBCDDF1B5E99F10070B557 /* JLGT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLGT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CBCDE31B5E99F10070B557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CBCDE41B5E99F10070B557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55CBCDE61B5E99F10070B557 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		55CBCDE71B5E99F10070B557 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55CBCDE61B5E99F10070B557 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		55CBCDE71B5E99F10070B557 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		55CBCDEF1B5E99F10070B557 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		55CBCDF21B5E99F10070B557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		55CBCDF81B5E99F10070B557 /* JLGTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLGTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CBCDFD1B5E99F10070B557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CBCDFE1B5E99F10070B557 /* JLGTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLGTTests.m; sourceTree = "<group>"; };
-		55CBCE0D1B5E9A9C0070B557 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		55CBCE0E1B5E9A9C0070B557 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		55CBCE101B5EB2790070B557 /* JLGT.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLGT.pch; sourceTree = "<group>"; };
 		55CBCE121B5EB4230070B557 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
 		55CBCE131B5EB4230070B557 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
@@ -52,6 +59,10 @@
 		55CBCE191B5EB4640070B557 /* JTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTNavigationController.m; sourceTree = "<group>"; };
 		55CBCE1B1B5EB6040070B557 /* JTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBaseViewController.h; sourceTree = "<group>"; };
 		55CBCE1C1B5EB6040070B557 /* JTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBaseViewController.m; sourceTree = "<group>"; };
+		55D3BB1E1B60735000AE7033 /* JTAlipayConversactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAlipayConversactionViewController.h; sourceTree = "<group>"; };
+		55D3BB1F1B60735000AE7033 /* JTAlipayConversactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAlipayConversactionViewController.m; sourceTree = "<group>"; };
+		55D3BB241B60737100AE7033 /* JTUnreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTUnreadViewController.h; sourceTree = "<group>"; };
+		55D3BB251B60737100AE7033 /* JTUnreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTUnreadViewController.m; sourceTree = "<group>"; };
 		B05D5D1DA1BDFA378E626B11 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D56598E242983DE70C48E303 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FD494FD02F919B3A14510425 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +87,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5524FB421B62022900684C1D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5524FB431B62022900684C1D /* Controller */,
+				5524FB441B62022900684C1D /* Model */,
+				5524FB451B62022900684C1D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5524FB431B62022900684C1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5524FB461B62024500684C1D /* JTHomeViewController.h */,
+				5524FB471B62024500684C1D /* JTHomeViewController.m */,
+				5524FB481B62024500684C1D /* JTHomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5524FB441B62022900684C1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5524FB451B62022900684C1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		55CBCDD61B5E99F10070B557 = {
 			isa = PBXGroup;
 			children = (
@@ -99,11 +144,11 @@
 		55CBCDE11B5E99F10070B557 /* JLGT */ = {
 			isa = PBXGroup;
 			children = (
+				5524FB421B62022900684C1D /* Home */,
 				55CBCE081B5E9A7C0070B557 /* Main */,
-				55CBCDE61B5E99F10070B557 /* AppDelegate.h */,
-				55CBCDE71B5E99F10070B557 /* AppDelegate.m */,
-				55CBCE0D1B5E9A9C0070B557 /* MainViewController.h */,
-				55CBCE0E1B5E9A9C0070B557 /* MainViewController.m */,
+				55D3BB121B60731700AE7033 /* AlipayConversation */,
+				55D3BB161B60731700AE7033 /* AlipayWealth */,
+				55D3BB1A1B60731700AE7033 /* Unread */,
 				55CBCDE21B5E99F10070B557 /* Supporting Files */,
 			);
 			path = JLGT;
@@ -171,6 +216,8 @@
 		55CBCE0B1B5E9A7C0070B557 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				55CBCDE61B5E99F10070B557 /* AppDelegate.h */,
+				55CBCDE71B5E99F10070B557 /* AppDelegate.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -191,6 +238,105 @@
 				55CBCE151B5EB4230070B557 /* UIView+Category.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		55D3BB121B60731700AE7033 /* AlipayConversation */ = {
+			isa = PBXGroup;
+			children = (
+				55D3BB131B60731700AE7033 /* Controller */,
+				55D3BB141B60731700AE7033 /* Model */,
+				55D3BB151B60731700AE7033 /* View */,
+			);
+			path = AlipayConversation;
+			sourceTree = "<group>";
+		};
+		55D3BB131B60731700AE7033 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55D3BB1E1B60735000AE7033 /* JTAlipayConversactionViewController.h */,
+				55D3BB1F1B60735000AE7033 /* JTAlipayConversactionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55D3BB141B60731700AE7033 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55D3BB151B60731700AE7033 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55D3BB161B60731700AE7033 /* AlipayWealth */ = {
+			isa = PBXGroup;
+			children = (
+				55D3BB171B60731700AE7033 /* Controller */,
+				55D3BB181B60731700AE7033 /* Model */,
+				55D3BB191B60731700AE7033 /* View */,
+			);
+			path = AlipayWealth;
+			sourceTree = "<group>";
+		};
+		55D3BB171B60731700AE7033 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5524FB3F1B6201D800684C1D /* JTAlipayWealthViewController.h */,
+				5524FB401B6201D800684C1D /* JTAlipayWealthViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55D3BB181B60731700AE7033 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55D3BB191B60731700AE7033 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55D3BB1A1B60731700AE7033 /* Unread */ = {
+			isa = PBXGroup;
+			children = (
+				55D3BB1B1B60731700AE7033 /* Controller */,
+				55D3BB1C1B60731700AE7033 /* Model */,
+				55D3BB1D1B60731700AE7033 /* View */,
+			);
+			path = Unread;
+			sourceTree = "<group>";
+		};
+		55D3BB1B1B60731700AE7033 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55D3BB241B60737100AE7033 /* JTUnreadViewController.h */,
+				55D3BB251B60737100AE7033 /* JTUnreadViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55D3BB1C1B60731700AE7033 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55D3BB1D1B60731700AE7033 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		837DDF63FD906A80F66AA160 /* Frameworks */ = {
@@ -294,6 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CBCDF31B5E99F10070B557 /* LaunchScreen.xib in Resources */,
+				5524FB4A1B62024500684C1D /* JTHomeViewController.xib in Resources */,
 				55CBCDF01B5E99F10070B557 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,12 +493,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				55CBCDE81B5E99F10070B557 /* AppDelegate.m in Sources */,
-				55CBCE0F1B5E9A9C0070B557 /* MainViewController.m in Sources */,
+				55D3BB261B60737100AE7033 /* JTUnreadViewController.m in Sources */,
 				55CBCE1D1B5EB6040070B557 /* JTBaseViewController.m in Sources */,
+				55D3BB201B60735000AE7033 /* JTAlipayConversactionViewController.m in Sources */,
+				5524FB491B62024500684C1D /* JTHomeViewController.m in Sources */,
 				55CBCE1A1B5EB4640070B557 /* JTNavigationController.m in Sources */,
 				55CBCDE51B5E99F10070B557 /* main.m in Sources */,
 				55CBCE171B5EB4230070B557 /* UIView+Category.m in Sources */,
 				55CBCE161B5EB4230070B557 /* UIColor+Category.m in Sources */,
+				5524FB411B6201D800684C1D /* JTAlipayWealthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@
 		5524FB411B6201D800684C1D /* JTAlipayWealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5524FB401B6201D800684C1D /* JTAlipayWealthViewController.m */; };
 		5524FB491B62024500684C1D /* JTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5524FB471B62024500684C1D /* JTHomeViewController.m */; };
 		5524FB4A1B62024500684C1D /* JTHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5524FB481B62024500684C1D /* JTHomeViewController.xib */; };
+		5524FB821B62440400684C1D /* UIBarButtonItem+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5524FB811B62440400684C1D /* UIBarButtonItem+Category.m */; };
 		557381D34CC4961F38671611 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD494FD02F919B3A14510425 /* libPods.a */; };
 		55CBCDE51B5E99F10070B557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCDE41B5E99F10070B557 /* main.m */; };
 		55CBCDE81B5E99F10070B557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCDE71B5E99F10070B557 /* AppDelegate.m */; };
@@ -40,6 +41,8 @@
 		5524FB461B62024500684C1D /* JTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHomeViewController.h; sourceTree = "<group>"; };
 		5524FB471B62024500684C1D /* JTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHomeViewController.m; sourceTree = "<group>"; };
 		5524FB481B62024500684C1D /* JTHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTHomeViewController.xib; sourceTree = "<group>"; };
+		5524FB801B62440400684C1D /* UIBarButtonItem+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Category.h"; sourceTree = "<group>"; };
+		5524FB811B62440400684C1D /* UIBarButtonItem+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Category.m"; sourceTree = "<group>"; };
 		55CBCDDF1B5E99F10070B557 /* JLGT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLGT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CBCDE31B5E99F10070B557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CBCDE41B5E99F10070B557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -144,8 +147,8 @@
 		55CBCDE11B5E99F10070B557 /* JLGT */ = {
 			isa = PBXGroup;
 			children = (
-				5524FB421B62022900684C1D /* Home */,
 				55CBCE081B5E9A7C0070B557 /* Main */,
+				5524FB421B62022900684C1D /* Home */,
 				55D3BB121B60731700AE7033 /* AlipayConversation */,
 				55D3BB161B60731700AE7033 /* AlipayWealth */,
 				55D3BB1A1B60731700AE7033 /* Unread */,
@@ -236,6 +239,8 @@
 				55CBCE131B5EB4230070B557 /* UIColor+Category.m */,
 				55CBCE141B5EB4230070B557 /* UIView+Category.h */,
 				55CBCE151B5EB4230070B557 /* UIView+Category.m */,
+				5524FB801B62440400684C1D /* UIBarButtonItem+Category.h */,
+				5524FB811B62440400684C1D /* UIBarButtonItem+Category.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -501,6 +506,7 @@
 				55CBCDE51B5E99F10070B557 /* main.m in Sources */,
 				55CBCE171B5EB4230070B557 /* UIView+Category.m in Sources */,
 				55CBCE161B5EB4230070B557 /* UIColor+Category.m in Sources */,
+				5524FB821B62440400684C1D /* UIBarButtonItem+Category.m in Sources */,
 				5524FB411B6201D800684C1D /* JTAlipayWealthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

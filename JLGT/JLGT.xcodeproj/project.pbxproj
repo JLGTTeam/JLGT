@@ -23,6 +23,7 @@
 		55CBCE1D1B5EB6040070B557 /* JTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE1C1B5EB6040070B557 /* JTBaseViewController.m */; };
 		55D3BB201B60735000AE7033 /* JTAlipayConversactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D3BB1F1B60735000AE7033 /* JTAlipayConversactionViewController.m */; };
 		55D3BB261B60737100AE7033 /* JTUnreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D3BB251B60737100AE7033 /* JTUnreadViewController.m */; };
+		FDF935A61B63793E00FAC98D /* JTAlipayWealthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDF935A51B63793E00FAC98D /* JTAlipayWealthViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		B05D5D1DA1BDFA378E626B11 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D56598E242983DE70C48E303 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FD494FD02F919B3A14510425 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF935A51B63793E00FAC98D /* JTAlipayWealthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTAlipayWealthViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +295,7 @@
 			children = (
 				5524FB3F1B6201D800684C1D /* JTAlipayWealthViewController.h */,
 				5524FB401B6201D800684C1D /* JTAlipayWealthViewController.m */,
+				FDF935A51B63793E00FAC98D /* JTAlipayWealthViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 			files = (
 				55CBCDF31B5E99F10070B557 /* LaunchScreen.xib in Resources */,
 				5524FB4A1B62024500684C1D /* JTHomeViewController.xib in Resources */,
+				FDF935A61B63793E00FAC98D /* JTAlipayWealthViewController.xib in Resources */,
 				55CBCDF01B5E99F10070B557 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

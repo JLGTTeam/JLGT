@@ -13,13 +13,13 @@
 /**
  *  以下方法可通过setter或者getter取值或赋值(readonly的只能取值)
  */
-@property (nonatomic, assign) CGFloat top;
-@property (nonatomic, assign) CGFloat left;
-@property (nonatomic, assign, readonly) CGFloat bottom;
-@property (nonatomic, assign, readonly) CGFloat right;
-@property (nonatomic, assign) CGFloat width;
-@property (nonatomic, assign) CGFloat height;
-@property (nonatomic, assign) CGSize size;
+@property (nonatomic, assign) CGFloat jt_top;
+@property (nonatomic, assign) CGFloat jt_left;
+@property (nonatomic, assign, readonly) CGFloat jt_bottom;
+@property (nonatomic, assign, readonly) CGFloat jt_right;
+@property (nonatomic, assign) CGFloat jt_width;
+@property (nonatomic, assign) CGFloat jt_height;
+@property (nonatomic, assign) CGSize jt_size;
 
 /**
  *	删除所有子对象

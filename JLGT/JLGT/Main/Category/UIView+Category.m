@@ -10,71 +10,71 @@
 
 @implementation UIView (Category)
 
-- (CGFloat)left
+- (CGFloat)jt_left
 {
     return self.frame.origin.x;
 }
 
-- (CGFloat)top
+- (CGFloat)jt_top
 {
     return self.frame.origin.y;
 }
 
-- (CGFloat)right
+- (CGFloat)jt_right
 {
     return self.frame.origin.x + self.frame.size.width;
 }
 
-- (CGFloat)bottom
+- (CGFloat)jt_bottom
 {
     return self.frame.origin.y + self.frame.size.height;
 }
 
-- (CGFloat)width
+- (CGFloat)jt_width
 {
     return self.frame.size.width;
 }
 
-- (CGFloat)height
+- (CGFloat)jt_height
 {
     return self.frame.size.height;
 }
 
-- (void)setWidth:(CGFloat)width
+- (void)setJt_width:(CGFloat)jt_width
 {
     CGRect newFrame = self.frame;
-    newFrame.size.width = width;
+    newFrame.size.width = jt_width;
     self.frame = newFrame;
 }
 
-- (void)setHeight:(CGFloat)height
+- (void)setJt_height:(CGFloat)jt_height
 {
     CGRect newFrame = self.frame;
-    newFrame.size.height = height;
+    newFrame.size.height = jt_height;
     self.frame = newFrame;
 }
 
-- (void)setLeft:(CGFloat)x
+- (void)setJt_left:(CGFloat)x
 {
     CGRect oldFrame = self.frame;
     CGRect newFrame = CGRectMake(x, oldFrame.origin.y, oldFrame.size.width, oldFrame.size.height);
     self.frame = newFrame;
 }
 
-- (void)setTop:(CGFloat)y
+- (void)setJt_top:(CGFloat)y
 {
     CGRect oldFrame = self.frame;
     CGRect newFrame = CGRectMake(oldFrame.origin.x, y, oldFrame.size.width, oldFrame.size.height);
     self.frame = newFrame;
 }
 
-- (void)setSize:(CGSize)size {
+- (void)setJt_size:(CGSize)jt_size{
     CGRect frame = self.frame;
-    frame.size = size;
+    frame.size = jt_size;
     self.frame = frame;
 }
 
-- (CGSize)size {
+- (CGSize)jt_size {
     return self.frame.size;
 }
 

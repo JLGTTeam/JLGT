@@ -564,8 +564,7 @@
 			files = (
 				55D3BB201B60735000AE7033 /* JTAlipayConversactionViewController.m in Sources */,
 				C480EB241B63D9A300978D62 /* JTAlipayFriendsMessageCell.m in Sources */,
-				C486336D1B67680300AACB28 /* AppDelegate.m in Sources */,
-				55CBCDE51B5E99F10070B557 /* main.m in Sources */,
+				C486336D1B67680300AACB28 /* AppDelegate.m in Sources */,		55CBCDE51B5E99F10070B557 /* main.m in Sources */,
 				C486334B1B6766F800AACB28 /* UIColor+Category.m in Sources */,
 				C46656CD1B6695E800192FE9 /* JTEmojyIconView.m in Sources */,
 				C48633601B67677300AACB28 /* JTAlipayWealthViewController.m in Sources */,
@@ -578,6 +577,7 @@
 				C486334A1B6766F800AACB28 /* UIBarButtonItem+Category.m in Sources */,
 				C48633681B67679D00AACB28 /* JTUnreadViewController.m in Sources */,
 				C409B6D21B63BD8B004D17CE /* JTAlipayFriendsViewController.m in Sources */,
+				9A8A2B3E1B6722E700B24532 /* JTRedEnvePersonallVC.m in Sources */,
 				C480EB211B63D7D700978D62 /* JTAlipayFriendMessageModel.m in Sources */,
 				C486334D1B6766F800AACB28 /* UIView+Category.m in Sources */,
 			);

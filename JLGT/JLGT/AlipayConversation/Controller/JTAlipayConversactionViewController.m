@@ -11,6 +11,7 @@
 #import "JTAlipayFriendMessageModel.h"
 #import "JTAlipayFriendsMessageCell.h"
 #import "JTEmojyIconView.h"
+//#import "JTRedEnveEntryVC.h"
 
 @interface JTAlipayConversactionViewController () <UITableViewDataSource,UITableViewDelegate,UITextFieldDelegate>
 
@@ -100,7 +101,8 @@ static NSString * const meCell = @"me";
 }
 
 - (void)tempHongbao {
-    JTLog(@"发红包");
+    /* 跳转至发红包界面 */
+//    [self.navigationController pushViewController:[[JTRedEnveEntryVC alloc] init] animated:YES];
 }
 
 - (void)tempJietiao {

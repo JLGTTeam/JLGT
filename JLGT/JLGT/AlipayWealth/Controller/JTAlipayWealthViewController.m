@@ -10,16 +10,26 @@
 
 @interface JTAlipayWealthViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *contentLabel;
+
 @end
 
 @implementation JTAlipayWealthViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"财富";
     
+    self.title = @"财富";
     self.view.backgroundColor = [UIColor colorWithRed:223/255.0 green:223/255.0 blue:223/255.0 alpha:1.0]
 ;
+}
+
+
+
+- (void )labelSize
+{
+ 
+    
 }
 
 @end

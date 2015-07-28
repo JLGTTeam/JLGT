@@ -12,7 +12,7 @@
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BKo-RE-g5K" userLabel="emojyContent">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="153"/>
-                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </scrollView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transfer_line" translatesAutoresizingMaskIntoConstraints="NO" id="uhl-M9-gUu">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="2"/>

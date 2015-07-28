@@ -7,27 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5524FB411B6201D800684C1D /* JTAlipayWealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5524FB401B6201D800684C1D /* JTAlipayWealthViewController.m */; };
-		5524FB491B62024500684C1D /* JTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5524FB471B62024500684C1D /* JTHomeViewController.m */; };
-		5524FB4A1B62024500684C1D /* JTHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5524FB481B62024500684C1D /* JTHomeViewController.xib */; };
-		5524FB821B62440400684C1D /* UIBarButtonItem+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5524FB811B62440400684C1D /* UIBarButtonItem+Category.m */; };
 		557381D34CC4961F38671611 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD494FD02F919B3A14510425 /* libPods.a */; };
 		55CBCDE51B5E99F10070B557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCDE41B5E99F10070B557 /* main.m */; };
-		55CBCDE81B5E99F10070B557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCDE71B5E99F10070B557 /* AppDelegate.m */; };
 		55CBCDF01B5E99F10070B557 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CBCDEF1B5E99F10070B557 /* Images.xcassets */; };
 		55CBCDF31B5E99F10070B557 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CBCDF11B5E99F10070B557 /* LaunchScreen.xib */; };
 		55CBCDFF1B5E99F10070B557 /* JLGTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCDFE1B5E99F10070B557 /* JLGTTests.m */; };
-		55CBCE161B5EB4230070B557 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE131B5EB4230070B557 /* UIColor+Category.m */; };
-		55CBCE171B5EB4230070B557 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE151B5EB4230070B557 /* UIView+Category.m */; };
-		55CBCE1A1B5EB4640070B557 /* JTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE191B5EB4640070B557 /* JTNavigationController.m */; };
-		55CBCE1D1B5EB6040070B557 /* JTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCE1C1B5EB6040070B557 /* JTBaseViewController.m */; };
 		55D3BB201B60735000AE7033 /* JTAlipayConversactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D3BB1F1B60735000AE7033 /* JTAlipayConversactionViewController.m */; };
-		55D3BB261B60737100AE7033 /* JTUnreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D3BB251B60737100AE7033 /* JTUnreadViewController.m */; };
 		C409B6D21B63BD8B004D17CE /* JTAlipayFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C409B6D01B63BD8B004D17CE /* JTAlipayFriendsViewController.m */; };
 		C409B6D31B63BD8B004D17CE /* JTAlipayFriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C409B6D11B63BD8B004D17CE /* JTAlipayFriendsViewController.xib */; };
 		C46656CD1B6695E800192FE9 /* JTEmojyIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = C46656CC1B6695E800192FE9 /* JTEmojyIconView.m */; };
 		C46656CF1B66961500192FE9 /* JTEmojyIconView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C46656CE1B66961500192FE9 /* JTEmojyIconView.xib */; };
-		C46656D11B66997700192FE9 /* expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = C46656D01B66997700192FE9 /* expression.plist */; };
 		C480EB141B63CCB800978D62 /* JTAlipayFriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C480EB121B63CCB800978D62 /* JTAlipayFriendsCell.m */; };
 		C480EB151B63CCB800978D62 /* JTAlipayFriendsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C480EB131B63CCB800978D62 /* JTAlipayFriendsCell.xib */; };
 		C480EB181B63CF3A00978D62 /* JTAlipayFriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C480EB171B63CF3A00978D62 /* JTAlipayFriendsModel.m */; };
@@ -35,8 +24,19 @@
 		C480EB1E1B63D79500978D62 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = C480EB1D1B63D79500978D62 /* messages.plist */; };
 		C480EB211B63D7D700978D62 /* JTAlipayFriendMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C480EB201B63D7D700978D62 /* JTAlipayFriendMessageModel.m */; };
 		C480EB241B63D9A300978D62 /* JTAlipayFriendsMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C480EB231B63D9A300978D62 /* JTAlipayFriendsMessageCell.m */; };
-		C480EB271B63E11400978D62 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C480EB261B63E11400978D62 /* UIImage+Category.m */; };
-		FDF935A61B63793E00FAC98D /* JTAlipayWealthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDF935A51B63793E00FAC98D /* JTAlipayWealthViewController.xib */; };
+		C486334A1B6766F800AACB28 /* UIBarButtonItem+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C486333B1B6766F800AACB28 /* UIBarButtonItem+Category.m */; };
+		C486334B1B6766F800AACB28 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C486333D1B6766F800AACB28 /* UIColor+Category.m */; };
+		C486334C1B6766F800AACB28 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C486333F1B6766F800AACB28 /* UIImage+Category.m */; };
+		C486334D1B6766F800AACB28 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C48633411B6766F800AACB28 /* UIView+Category.m */; };
+		C486334E1B6766F800AACB28 /* JTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48633441B6766F800AACB28 /* JTBaseViewController.m */; };
+		C486334F1B6766F800AACB28 /* JTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48633461B6766F800AACB28 /* JTNavigationController.m */; };
+		C48633571B67673200AACB28 /* JTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48633531B67673200AACB28 /* JTHomeViewController.m */; };
+		C48633581B67673200AACB28 /* JTHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C48633541B67673200AACB28 /* JTHomeViewController.xib */; };
+		C48633601B67677300AACB28 /* JTAlipayWealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C486335C1B67677300AACB28 /* JTAlipayWealthViewController.m */; };
+		C48633611B67677300AACB28 /* JTAlipayWealthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C486335D1B67677300AACB28 /* JTAlipayWealthViewController.xib */; };
+		C48633681B67679D00AACB28 /* JTUnreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48633651B67679D00AACB28 /* JTUnreadViewController.m */; };
+		C486336A1B6767CF00AACB28 /* expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = C48633691B6767CF00AACB28 /* expression.plist */; };
+		C486336D1B67680300AACB28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C486336C1B67680300AACB28 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,36 +50,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5524FB3F1B6201D800684C1D /* JTAlipayWealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAlipayWealthViewController.h; sourceTree = "<group>"; };
-		5524FB401B6201D800684C1D /* JTAlipayWealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAlipayWealthViewController.m; sourceTree = "<group>"; };
-		5524FB461B62024500684C1D /* JTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHomeViewController.h; sourceTree = "<group>"; };
-		5524FB471B62024500684C1D /* JTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHomeViewController.m; sourceTree = "<group>"; };
-		5524FB481B62024500684C1D /* JTHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTHomeViewController.xib; sourceTree = "<group>"; };
-		5524FB801B62440400684C1D /* UIBarButtonItem+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Category.h"; sourceTree = "<group>"; };
-		5524FB811B62440400684C1D /* UIBarButtonItem+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Category.m"; sourceTree = "<group>"; };
 		55CBCDDF1B5E99F10070B557 /* JLGT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLGT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CBCDE31B5E99F10070B557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CBCDE41B5E99F10070B557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55CBCDE61B5E99F10070B557 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
-		55CBCDE71B5E99F10070B557 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		55CBCDEF1B5E99F10070B557 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		55CBCDF21B5E99F10070B557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		55CBCDF81B5E99F10070B557 /* JLGTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLGTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CBCDFD1B5E99F10070B557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CBCDFE1B5E99F10070B557 /* JLGTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLGTTests.m; sourceTree = "<group>"; };
 		55CBCE101B5EB2790070B557 /* JLGT.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLGT.pch; sourceTree = "<group>"; };
-		55CBCE121B5EB4230070B557 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
-		55CBCE131B5EB4230070B557 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
-		55CBCE141B5EB4230070B557 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
-		55CBCE151B5EB4230070B557 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
-		55CBCE181B5EB4640070B557 /* JTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTNavigationController.h; sourceTree = "<group>"; };
-		55CBCE191B5EB4640070B557 /* JTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTNavigationController.m; sourceTree = "<group>"; };
-		55CBCE1B1B5EB6040070B557 /* JTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBaseViewController.h; sourceTree = "<group>"; };
-		55CBCE1C1B5EB6040070B557 /* JTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBaseViewController.m; sourceTree = "<group>"; };
 		55D3BB1E1B60735000AE7033 /* JTAlipayConversactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAlipayConversactionViewController.h; sourceTree = "<group>"; };
 		55D3BB1F1B60735000AE7033 /* JTAlipayConversactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAlipayConversactionViewController.m; sourceTree = "<group>"; };
-		55D3BB241B60737100AE7033 /* JTUnreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTUnreadViewController.h; sourceTree = "<group>"; };
-		55D3BB251B60737100AE7033 /* JTUnreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTUnreadViewController.m; sourceTree = "<group>"; };
 		B05D5D1DA1BDFA378E626B11 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C409B6CF1B63BD8B004D17CE /* JTAlipayFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAlipayFriendsViewController.h; sourceTree = "<group>"; };
 		C409B6D01B63BD8B004D17CE /* JTAlipayFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAlipayFriendsViewController.m; sourceTree = "<group>"; };
@@ -87,7 +68,6 @@
 		C46656CB1B6695E800192FE9 /* JTEmojyIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTEmojyIconView.h; sourceTree = "<group>"; };
 		C46656CC1B6695E800192FE9 /* JTEmojyIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTEmojyIconView.m; sourceTree = "<group>"; };
 		C46656CE1B66961500192FE9 /* JTEmojyIconView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTEmojyIconView.xib; sourceTree = "<group>"; };
-		C46656D01B66997700192FE9 /* expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expression.plist; sourceTree = "<group>"; };
 		C480EB111B63CCB800978D62 /* JTAlipayFriendsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAlipayFriendsCell.h; sourceTree = "<group>"; };
 		C480EB121B63CCB800978D62 /* JTAlipayFriendsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAlipayFriendsCell.m; sourceTree = "<group>"; };
 		C480EB131B63CCB800978D62 /* JTAlipayFriendsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTAlipayFriendsCell.xib; sourceTree = "<group>"; };
@@ -99,11 +79,31 @@
 		C480EB201B63D7D700978D62 /* JTAlipayFriendMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAlipayFriendMessageModel.m; sourceTree = "<group>"; };
 		C480EB221B63D9A300978D62 /* JTAlipayFriendsMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAlipayFriendsMessageCell.h; sourceTree = "<group>"; };
 		C480EB231B63D9A300978D62 /* JTAlipayFriendsMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAlipayFriendsMessageCell.m; sourceTree = "<group>"; };
-		C480EB251B63E11400978D62 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
-		C480EB261B63E11400978D62 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		C486333A1B6766F800AACB28 /* UIBarButtonItem+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Category.h"; sourceTree = "<group>"; };
+		C486333B1B6766F800AACB28 /* UIBarButtonItem+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Category.m"; sourceTree = "<group>"; };
+		C486333C1B6766F800AACB28 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		C486333D1B6766F800AACB28 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		C486333E1B6766F800AACB28 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		C486333F1B6766F800AACB28 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		C48633401B6766F800AACB28 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		C48633411B6766F800AACB28 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		C48633431B6766F800AACB28 /* JTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBaseViewController.h; sourceTree = "<group>"; };
+		C48633441B6766F800AACB28 /* JTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBaseViewController.m; sourceTree = "<group>"; };
+		C48633451B6766F800AACB28 /* JTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTNavigationController.h; sourceTree = "<group>"; };
+		C48633461B6766F800AACB28 /* JTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTNavigationController.m; sourceTree = "<group>"; };
+		C48633521B67673200AACB28 /* JTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHomeViewController.h; sourceTree = "<group>"; };
+		C48633531B67673200AACB28 /* JTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHomeViewController.m; sourceTree = "<group>"; };
+		C48633541B67673200AACB28 /* JTHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTHomeViewController.xib; sourceTree = "<group>"; };
+		C486335B1B67677300AACB28 /* JTAlipayWealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAlipayWealthViewController.h; sourceTree = "<group>"; };
+		C486335C1B67677300AACB28 /* JTAlipayWealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAlipayWealthViewController.m; sourceTree = "<group>"; };
+		C486335D1B67677300AACB28 /* JTAlipayWealthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTAlipayWealthViewController.xib; sourceTree = "<group>"; };
+		C48633641B67679D00AACB28 /* JTUnreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTUnreadViewController.h; sourceTree = "<group>"; };
+		C48633651B67679D00AACB28 /* JTUnreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTUnreadViewController.m; sourceTree = "<group>"; };
+		C48633691B6767CF00AACB28 /* expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expression.plist; sourceTree = "<group>"; };
+		C486336B1B67680300AACB28 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C486336C1B67680300AACB28 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D56598E242983DE70C48E303 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FD494FD02F919B3A14510425 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDF935A51B63793E00FAC98D /* JTAlipayWealthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTAlipayWealthViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,40 +125,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5524FB421B62022900684C1D /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				5524FB431B62022900684C1D /* Controller */,
-				5524FB441B62022900684C1D /* Model */,
-				5524FB451B62022900684C1D /* View */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		5524FB431B62022900684C1D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				5524FB461B62024500684C1D /* JTHomeViewController.h */,
-				5524FB471B62024500684C1D /* JTHomeViewController.m */,
-				5524FB481B62024500684C1D /* JTHomeViewController.xib */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		5524FB441B62022900684C1D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		5524FB451B62022900684C1D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		55CBCDD61B5E99F10070B557 = {
 			isa = PBXGroup;
 			children = (
@@ -182,11 +148,11 @@
 		55CBCDE11B5E99F10070B557 /* JLGT */ = {
 			isa = PBXGroup;
 			children = (
-				55CBCE081B5E9A7C0070B557 /* Main */,
-				5524FB421B62022900684C1D /* Home */,
+				C48633381B6766F800AACB28 /* Main */,
+				C48633591B67677300AACB28 /* AlipayWealth */,
+				C48633501B67673200AACB28 /* Home */,
 				55D3BB121B60731700AE7033 /* AlipayConversation */,
-				55D3BB161B60731700AE7033 /* AlipayWealth */,
-				55D3BB1A1B60731700AE7033 /* Unread */,
+				C48633621B67679D00AACB28 /* Unread */,
 				55CBCDE21B5E99F10070B557 /* Supporting Files */,
 			);
 			path = JLGT;
@@ -195,7 +161,6 @@
 		55CBCDE21B5E99F10070B557 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C46656D01B66997700192FE9 /* expression.plist */,
 				55CBCDEF1B5E99F10070B557 /* Images.xcassets */,
 				55CBCDF11B5E99F10070B557 /* LaunchScreen.xib */,
 				55CBCDE31B5E99F10070B557 /* Info.plist */,
@@ -222,67 +187,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		55CBCE081B5E9A7C0070B557 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				55CBCE111B5EB3A80070B557 /* Category */,
-				55CBCE091B5E9A7C0070B557 /* Controller */,
-				55CBCE0A1B5E9A7C0070B557 /* Model */,
-				55CBCE0B1B5E9A7C0070B557 /* Other */,
-				55CBCE0C1B5E9A7C0070B557 /* View */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		55CBCE091B5E9A7C0070B557 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				55CBCE181B5EB4640070B557 /* JTNavigationController.h */,
-				55CBCE191B5EB4640070B557 /* JTNavigationController.m */,
-				55CBCE1B1B5EB6040070B557 /* JTBaseViewController.h */,
-				55CBCE1C1B5EB6040070B557 /* JTBaseViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		55CBCE0A1B5E9A7C0070B557 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		55CBCE0B1B5E9A7C0070B557 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				55CBCDE61B5E99F10070B557 /* AppDelegate.h */,
-				55CBCDE71B5E99F10070B557 /* AppDelegate.m */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		55CBCE0C1B5E9A7C0070B557 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		55CBCE111B5EB3A80070B557 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				C480EB251B63E11400978D62 /* UIImage+Category.h */,
-				C480EB261B63E11400978D62 /* UIImage+Category.m */,
-				55CBCE121B5EB4230070B557 /* UIColor+Category.h */,
-				55CBCE131B5EB4230070B557 /* UIColor+Category.m */,
-				55CBCE141B5EB4230070B557 /* UIView+Category.h */,
-				55CBCE151B5EB4230070B557 /* UIView+Category.m */,
-				5524FB801B62440400684C1D /* UIBarButtonItem+Category.h */,
-				5524FB811B62440400684C1D /* UIBarButtonItem+Category.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
 		55D3BB121B60731700AE7033 /* AlipayConversation */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,73 +210,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		55D3BB161B60731700AE7033 /* AlipayWealth */ = {
-			isa = PBXGroup;
-			children = (
-				55D3BB171B60731700AE7033 /* Controller */,
-				55D3BB181B60731700AE7033 /* Model */,
-				55D3BB191B60731700AE7033 /* View */,
-			);
-			path = AlipayWealth;
-			sourceTree = "<group>";
-		};
-		55D3BB171B60731700AE7033 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				5524FB3F1B6201D800684C1D /* JTAlipayWealthViewController.h */,
-				5524FB401B6201D800684C1D /* JTAlipayWealthViewController.m */,
-				FDF935A51B63793E00FAC98D /* JTAlipayWealthViewController.xib */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		55D3BB181B60731700AE7033 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		55D3BB191B60731700AE7033 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		55D3BB1A1B60731700AE7033 /* Unread */ = {
-			isa = PBXGroup;
-			children = (
-				55D3BB1B1B60731700AE7033 /* Controller */,
-				55D3BB1C1B60731700AE7033 /* Model */,
-				55D3BB1D1B60731700AE7033 /* View */,
-			);
-			path = Unread;
-			sourceTree = "<group>";
-		};
-		55D3BB1B1B60731700AE7033 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				55D3BB241B60737100AE7033 /* JTUnreadViewController.h */,
-				55D3BB251B60737100AE7033 /* JTUnreadViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		55D3BB1C1B60731700AE7033 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		55D3BB1D1B60731700AE7033 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		837DDF63FD906A80F66AA160 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -393,6 +230,7 @@
 		C480EB0F1B63CCB800978D62 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C48633691B6767CF00AACB28 /* expression.plist */,
 				C480EB1D1B63D79500978D62 /* messages.plist */,
 				C480EB161B63CF3A00978D62 /* JTAlipayFriendsModel.h */,
 				C480EB171B63CF3A00978D62 /* JTAlipayFriendsModel.m */,
@@ -413,6 +251,170 @@
 				C46656CB1B6695E800192FE9 /* JTEmojyIconView.h */,
 				C46656CC1B6695E800192FE9 /* JTEmojyIconView.m */,
 				C46656CE1B66961500192FE9 /* JTEmojyIconView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C48633381B6766F800AACB28 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C48633391B6766F800AACB28 /* Category */,
+				C48633421B6766F800AACB28 /* Controller */,
+				C48633471B6766F800AACB28 /* Model */,
+				C48633481B6766F800AACB28 /* Other */,
+				C48633491B6766F800AACB28 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C48633391B6766F800AACB28 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C486333A1B6766F800AACB28 /* UIBarButtonItem+Category.h */,
+				C486333B1B6766F800AACB28 /* UIBarButtonItem+Category.m */,
+				C486333C1B6766F800AACB28 /* UIColor+Category.h */,
+				C486333D1B6766F800AACB28 /* UIColor+Category.m */,
+				C486333E1B6766F800AACB28 /* UIImage+Category.h */,
+				C486333F1B6766F800AACB28 /* UIImage+Category.m */,
+				C48633401B6766F800AACB28 /* UIView+Category.h */,
+				C48633411B6766F800AACB28 /* UIView+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C48633421B6766F800AACB28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C48633431B6766F800AACB28 /* JTBaseViewController.h */,
+				C48633441B6766F800AACB28 /* JTBaseViewController.m */,
+				C48633451B6766F800AACB28 /* JTNavigationController.h */,
+				C48633461B6766F800AACB28 /* JTNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C48633471B6766F800AACB28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C48633481B6766F800AACB28 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C486336B1B67680300AACB28 /* AppDelegate.h */,
+				C486336C1B67680300AACB28 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C48633491B6766F800AACB28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C48633501B67673200AACB28 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C48633511B67673200AACB28 /* Controller */,
+				C48633551B67673200AACB28 /* Model */,
+				C48633561B67673200AACB28 /* View */,
+			);
+			name = Home;
+			path = JLGT/Home;
+			sourceTree = SOURCE_ROOT;
+		};
+		C48633511B67673200AACB28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C48633521B67673200AACB28 /* JTHomeViewController.h */,
+				C48633531B67673200AACB28 /* JTHomeViewController.m */,
+				C48633541B67673200AACB28 /* JTHomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C48633551B67673200AACB28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C48633561B67673200AACB28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C48633591B67677300AACB28 /* AlipayWealth */ = {
+			isa = PBXGroup;
+			children = (
+				C486335A1B67677300AACB28 /* Controller */,
+				C486335E1B67677300AACB28 /* Model */,
+				C486335F1B67677300AACB28 /* View */,
+			);
+			name = AlipayWealth;
+			path = JLGT/AlipayWealth;
+			sourceTree = SOURCE_ROOT;
+		};
+		C486335A1B67677300AACB28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C486335B1B67677300AACB28 /* JTAlipayWealthViewController.h */,
+				C486335C1B67677300AACB28 /* JTAlipayWealthViewController.m */,
+				C486335D1B67677300AACB28 /* JTAlipayWealthViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C486335E1B67677300AACB28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C486335F1B67677300AACB28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C48633621B67679D00AACB28 /* Unread */ = {
+			isa = PBXGroup;
+			children = (
+				C48633631B67679D00AACB28 /* Controller */,
+				C48633661B67679D00AACB28 /* Model */,
+				C48633671B67679D00AACB28 /* View */,
+			);
+			path = Unread;
+			sourceTree = "<group>";
+		};
+		C48633631B67679D00AACB28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C48633641B67679D00AACB28 /* JTUnreadViewController.h */,
+				C48633651B67679D00AACB28 /* JTUnreadViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C48633661B67679D00AACB28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C48633671B67679D00AACB28 /* View */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -500,16 +502,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C46656D11B66997700192FE9 /* expression.plist in Resources */,
 				C480EB1E1B63D79500978D62 /* messages.plist in Resources */,
 				C480EB1C1B63D39400978D62 /* JTAlipayConversactionViewController.storyboard in Resources */,
+				C48633581B67673200AACB28 /* JTHomeViewController.xib in Resources */,
+				C48633611B67677300AACB28 /* JTAlipayWealthViewController.xib in Resources */,
 				C46656CF1B66961500192FE9 /* JTEmojyIconView.xib in Resources */,
 				55CBCDF31B5E99F10070B557 /* LaunchScreen.xib in Resources */,
 				C409B6D31B63BD8B004D17CE /* JTAlipayFriendsViewController.xib in Resources */,
-				5524FB4A1B62024500684C1D /* JTHomeViewController.xib in Resources */,
-				FDF935A61B63793E00FAC98D /* JTAlipayWealthViewController.xib in Resources */,
 				55CBCDF01B5E99F10070B557 /* Images.xcassets in Resources */,
 				C480EB151B63CCB800978D62 /* JTAlipayFriendsCell.xib in Resources */,
+				C486336A1B6767CF00AACB28 /* expression.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,24 +562,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CBCDE81B5E99F10070B557 /* AppDelegate.m in Sources */,
-				55D3BB261B60737100AE7033 /* JTUnreadViewController.m in Sources */,
-				55CBCE1D1B5EB6040070B557 /* JTBaseViewController.m in Sources */,
-				C480EB271B63E11400978D62 /* UIImage+Category.m in Sources */,
 				55D3BB201B60735000AE7033 /* JTAlipayConversactionViewController.m in Sources */,
-				5524FB491B62024500684C1D /* JTHomeViewController.m in Sources */,
 				C480EB241B63D9A300978D62 /* JTAlipayFriendsMessageCell.m in Sources */,
-				55CBCE1A1B5EB4640070B557 /* JTNavigationController.m in Sources */,
+				C486336D1B67680300AACB28 /* AppDelegate.m in Sources */,
 				55CBCDE51B5E99F10070B557 /* main.m in Sources */,
+				C486334B1B6766F800AACB28 /* UIColor+Category.m in Sources */,
 				C46656CD1B6695E800192FE9 /* JTEmojyIconView.m in Sources */,
+				C48633601B67677300AACB28 /* JTAlipayWealthViewController.m in Sources */,
+				C486334F1B6766F800AACB28 /* JTNavigationController.m in Sources */,
 				C480EB181B63CF3A00978D62 /* JTAlipayFriendsModel.m in Sources */,
-				55CBCE171B5EB4230070B557 /* UIView+Category.m in Sources */,
-				55CBCE161B5EB4230070B557 /* UIColor+Category.m in Sources */,
-				5524FB821B62440400684C1D /* UIBarButtonItem+Category.m in Sources */,
 				C480EB141B63CCB800978D62 /* JTAlipayFriendsCell.m in Sources */,
+				C486334E1B6766F800AACB28 /* JTBaseViewController.m in Sources */,
+				C48633571B67673200AACB28 /* JTHomeViewController.m in Sources */,
+				C486334C1B6766F800AACB28 /* UIImage+Category.m in Sources */,
+				C486334A1B6766F800AACB28 /* UIBarButtonItem+Category.m in Sources */,
+				C48633681B67679D00AACB28 /* JTUnreadViewController.m in Sources */,
 				C409B6D21B63BD8B004D17CE /* JTAlipayFriendsViewController.m in Sources */,
 				C480EB211B63D7D700978D62 /* JTAlipayFriendMessageModel.m in Sources */,
-				5524FB411B6201D800684C1D /* JTAlipayWealthViewController.m in Sources */,
+				C486334D1B6766F800AACB28 /* UIView+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

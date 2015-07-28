@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JLGTNavigationController : UINavigationController
+@interface JTNavigationController : UINavigationController
 
 @end

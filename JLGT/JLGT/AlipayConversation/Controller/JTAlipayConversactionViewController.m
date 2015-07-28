@@ -25,16 +25,22 @@
 // 按住说话按钮
 @property (weak, nonatomic) IBOutlet UIButton *btnSpeak;
 
+// 语音
 @property (weak, nonatomic) IBOutlet UIButton *btnVoice;
 
+// 表情
 @property (weak, nonatomic) IBOutlet UIButton *btnEmojy;
 
+// 分享
 @property (weak, nonatomic) IBOutlet UIButton *btnShare;
 
-/** 键盘按钮当前是否显示 */
-@property (nonatomic,assign,getter=isKeyboardHide) BOOL KeyboardHide;
-/** 键盘按钮当前所在的位置 */
+/** 键盘按钮显示状态 */
+@property (nonatomic,assign,getter=isKeyboardHide) BOOL keyboardHide;
+
+/** 当前键盘所在的按钮 */
 @property (nonatomic,weak) UIButton *btnKeyboard;
+
+@property (nonatomic,strong) JTEmojyIconView *emojyIconView;
 
 @end
 
@@ -72,16 +78,16 @@ static NSString * const meCell = @"me";
     
     // 背景颜色
     self.tableView.backgroundColor = LZRGBColor(241, 241, 241);
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
     self.txtInput.delegate = self;
     
     // 监听键盘发出的通知
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillChangeFrameNotification: ) name:UIKeyboardWillChangeFrameNotification object:nil];
     
-    JTEmojyIconView *emojyView = [JTEmojyIconView emojyIconView];
+    self.emojyIconView = [JTEmojyIconView emojyIconView];
     
-    emojyView.frame = CGRectMake(0, 100, self.view.jt_width, 230);
-    [self.view addSubview:emojyView];
+    self.emojyIconView.frame = CGRectMake(0, self.view.jt_height, self.view.jt_width, 230);
 }
 
 - (void)setUpTableView
@@ -131,27 +137,30 @@ static NSString * const meCell = @"me";
 // 点击+
 - (IBAction)btnMessageAddClick:(UIButton *)sender {
     [self btnKeyBoardShow:sender];
+    if(self.isKeyboardHide == NO)
+    {
+        // 键盘显示
+    }
+    else
+    {
+        // 分享显示
+    }
 }
 
 // 点击表情
 - (IBAction)btnEmojiClick:(UIButton *)sender {
     [self btnKeyBoardShow:sender];
-    
-    if(1)
+    if(self.isKeyboardHide == NO)
     {
-        // 表情
-        [sender setImage:[UIImage imageNamed:@"emoji"] forState:UIControlStateNormal];
-        [sender setImage:[UIImage imageNamed:@"emoji_2"] forState:UIControlStateHighlighted];
-        // 显示键盘
+        // 键盘显示
+        self.txtInput.inputView = nil;
     }
     else
     {
-        // 键盘
-        [sender setImage:[UIImage imageNamed:@"keyboard"] forState:UIControlStateNormal];
-        [sender setImage:[UIImage imageNamed:@"keyboard_2"] forState:UIControlStateHighlighted];
-        // 显示表情
+        
+        // 表情显示
+        self.txtInput.inputView = self.emojyIconView;
     }
-    
     // 输入框得到焦点
     [self.txtInput becomeFirstResponder];
 }
@@ -160,8 +169,9 @@ static NSString * const meCell = @"me";
 - (IBAction)btnVoiceClick:(UIButton *)sender {
     // 切换图片
     [self btnKeyBoardShow:sender];
-    if(self.isKeyboardHide && self.btnKeyboard == sender)
+    if(self.isKeyboardHide == NO)
     {
+        // 键盘显示
         self.txtInput.hidden = NO;
         self.btnSpeak.hidden = YES;
         // 输入框得到焦点
@@ -169,7 +179,7 @@ static NSString * const meCell = @"me";
     }
     else
     {
-        self.btnKeyboard = sender;
+        // 语音显示
         self.txtInput.hidden = YES;
         self.btnSpeak.hidden = NO;
         // 退出键盘
@@ -183,25 +193,51 @@ static NSString * const meCell = @"me";
     // 切换图片
     if(self.isKeyboardHide && self.btnKeyboard == sender)
     {
-        self.KeyboardHide = NO;
-        // 语音
-        [self.btnVoice setImage:[UIImage imageNamed:@"recordBtn"] forState:UIControlStateNormal];
-        [self.btnVoice setImage:[UIImage imageNamed:@"recordBtn_2"] forState:UIControlStateHighlighted];
-        
-        // 表情
-        [self.btnEmojy setImage:[UIImage imageNamed:@"emoji"] forState:UIControlStateNormal];
-        [self.btnEmojy setImage:[UIImage imageNamed:@"emoji_2"] forState:UIControlStateHighlighted];
-        
-        // 分享
-        [self.btnShare setImage:[UIImage imageNamed:@"toolsBtn"] forState:UIControlStateNormal];
-        [self.btnShare setImage:[UIImage imageNamed:@"toolsBtn_2"] forState:UIControlStateHighlighted];
+        self.keyboardHide = NO;
+        if(sender == self.btnVoice)
+        {
+            // 语音
+            [self.btnVoice setImage:[UIImage imageNamed:@"recordBtn"] forState:UIControlStateNormal];
+            [self.btnVoice setImage:[UIImage imageNamed:@"recordBtn_2"] forState:UIControlStateHighlighted];
+        }
+        else if(sender == self.btnEmojy)
+        {
+            // 表情
+            [self.btnEmojy setImage:[UIImage imageNamed:@"emoji"] forState:UIControlStateNormal];
+            [self.btnEmojy setImage:[UIImage imageNamed:@"emoji_2"] forState:UIControlStateHighlighted];
+        }
+        else if(sender == self.btnShare)
+        {
+            // 分享
+            [self.btnShare setImage:[UIImage imageNamed:@"toolsBtn"] forState:UIControlStateNormal];
+            [self.btnShare setImage:[UIImage imageNamed:@"toolsBtn_2"] forState:UIControlStateHighlighted];
+        }
         
     }
     else
     {
-        self.KeyboardHide = YES;
+        self.keyboardHide = YES;
         self.btnKeyboard = sender;
-        // 语音
+        if(sender != self.btnVoice)
+        {
+            // 语音
+            [self.btnVoice setImage:[UIImage imageNamed:@"recordBtn"] forState:UIControlStateNormal];
+            [self.btnVoice setImage:[UIImage imageNamed:@"recordBtn_2"] forState:UIControlStateHighlighted];
+        }
+        if(sender != self.btnEmojy)
+        {
+            // 表情
+            [self.btnEmojy setImage:[UIImage imageNamed:@"emoji"] forState:UIControlStateNormal];
+            [self.btnEmojy setImage:[UIImage imageNamed:@"emoji_2"] forState:UIControlStateHighlighted];
+        }
+        
+        if(sender != self.btnShare)
+        {
+            // 分享
+            [self.btnShare setImage:[UIImage imageNamed:@"toolsBtn"] forState:UIControlStateNormal];
+            [self.btnShare setImage:[UIImage imageNamed:@"toolsBtn_2"] forState:UIControlStateHighlighted];
+        }
+        
         [sender setImage:[UIImage imageNamed:@"keyboard"] forState:UIControlStateNormal];
         [sender setImage:[UIImage imageNamed:@"keyboard_2"] forState:UIControlStateHighlighted];
     }
@@ -252,6 +288,11 @@ static NSString * const meCell = @"me";
 {
     JTAlipayFriendMessageModel *messageModel = self.messages[indexPath.row];
     return messageModel.cellH;
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
 }
 
 @end

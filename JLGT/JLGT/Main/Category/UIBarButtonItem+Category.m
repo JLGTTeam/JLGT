@@ -14,7 +14,7 @@
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
     [button setBackgroundImage:[UIImage imageNamed:hightlightImage] forState:UIControlStateHighlighted];
-    button.size = button.currentBackgroundImage.size;
+    button.jt_size = button.currentBackgroundImage.size;
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *item = [[self alloc] initWithCustomView:button];
     return item;

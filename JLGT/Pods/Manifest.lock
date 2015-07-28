@@ -1,10 +1,13 @@
 PODS:
-  - MJExtension (2.5.2)
+  - Masonry (0.6.2)
+  - MJExtension (2.5.3)
 
 DEPENDENCIES:
+  - Masonry
   - MJExtension
 
 SPEC CHECKSUMS:
-  MJExtension: 73e812aca0846e4a7b4d7aca34cfacf48d1f3310
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  MJExtension: d636ed42d1af44cba81106ae7831cccb66906eb7
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.37.2

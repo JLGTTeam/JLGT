@@ -8,6 +8,28 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JTEmojyIcon : UIView
+@class JTEmojyIconView;
+
+@protocol JTEmojyIConViewDelegate <NSObject>
+
+@optional
+// 点击表情
+- (void)emojyIconView:(JTEmojyIconView *)emojyIconView didEmojyClickWithIconName:(NSString *)iconName withImage:(UIImage *)icon;
+
+// 发送
+- (void)emojyIconViewdidSendClick:(JTEmojyIconView *)emojyIconView;
+
+// 删除
+- (void)emojyIconViewdidDeleteClick:(JTEmojyIconView *)emojyIconView;
+
+@end
+
+
+@interface JTEmojyIconView : UIView
+
+/** delegate */
+@property (nonatomic,weak) id<JTEmojyIConViewDelegate> delegate;
+
++ (instancetype)emojyIconView;
 
 @end

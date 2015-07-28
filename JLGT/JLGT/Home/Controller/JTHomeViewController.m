@@ -23,7 +23,10 @@
 }
 
 - (IBAction)clickAlipayFriend:(UIButton *)sender {
-    [self.navigationController pushViewController:[[JTAlipayConversactionViewController alloc] init] animated:YES];
+    // 从storyBoard加载控制器
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:NSStringFromClass([JTAlipayConversactionViewController class]) bundle:nil];
+    UIViewController *viewController = [storyBoard instantiateViewControllerWithIdentifier:@"SBChat"];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 - (IBAction)clickAlipayWealth:(UIButton *)sender {

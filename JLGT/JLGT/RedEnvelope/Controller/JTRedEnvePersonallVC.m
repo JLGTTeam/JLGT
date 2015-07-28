@@ -16,22 +16,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // 设置View颜色
+    self.view.backgroundColor = LZRGBColor(243, 243, 247);
+
+    
+    [self setUpNavBar];
+    /* 看是否获取到数据 */
+    NSLog(@"**********************%@",self.friendName);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+/** 设置导航栏 */
+- (void)setUpNavBar
+{
+    // 设置导航条颜色
+    self.navigationController.navigationBar.barTintColor = LZRGBColor(231, 71, 63);
+    
+    
+    // 导航条不为半透明
+    self.navigationController.navigationBar.translucent = NO;
+    
+    // 设置导航条内容
+    self.navigationItem.title = @"个人红包";
+    
+    // 设置下一个控制器返回按钮内容
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleDone target:nil action:nil];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+/** 设置状态栏为白色 */
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    NSLog(@"%s",__func__);
+    return UIStatusBarStyleLightContent;
 }
-*/
 
 @end

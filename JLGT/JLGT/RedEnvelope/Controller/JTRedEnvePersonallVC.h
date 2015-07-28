@@ -10,4 +10,7 @@
 
 @interface JTRedEnvePersonallVC : UIViewController
 
+/* 用于接收顺传数据--好友名字 */
+@property (strong, nonatomic)NSString *friendName;
+
 @end

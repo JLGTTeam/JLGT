@@ -7,33 +7,68 @@
 //
 
 #import "JTRedEnveEntryVC.h"
+#import "JTRedEnvePersonallVC.h"
 
 @interface JTRedEnveEntryVC ()
+
 @property (weak, nonatomic) IBOutlet UITextField *friendTextField;
+@property (weak, nonatomic) IBOutlet UIButton *goBtn;
 
 @end
 
 @implementation JTRedEnveEntryVC
 
 
+- (IBAction)goClick:(UIButton *)sender {
+    
+    /* 获取数据 */
+    NSString *name = self.friendTextField.text;
+    NSLog(@"###########%@",name);
+    
+    /* 创建要跳转的控制器 */
+    JTRedEnvePersonallVC *sendPersonallVC = [[JTRedEnvePersonallVC alloc] init];
+    sendPersonallVC.friendName = name;
+    
+    [self.navigationController pushViewController:sendPersonallVC animated:YES];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"%s",__func__);
+    
+    // 设置View颜色
+    self.view.backgroundColor = LZRGBColor(243, 243, 247);
+    /* 登陆按钮禁用 */
+    self.goBtn.enabled = NO;
+    
+    /* 监听文字输入框的内容改变 */
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textFieldChange) name:@"UITextFieldTextDidChangeNotification" object:self.friendTextField];
     
     [self setUpNavBar];
 }
+
+/* 文本框内容发生改变就会调用 */
+-(void)textFieldChange
+{
+    // 根据文本框的长度控制登陆按钮的状态
+    self.goBtn.enabled = (self.friendTextField.text.length > 0);
+}
+
 /** 设置导航栏 */
 - (void)setUpNavBar
 {
-    // 设置导航栏颜色红色
-    //self.navigationController.navigationBar.backgroundColor = [UIColor colorWithRed:231/255.0 green:71/255.0 blue:63/255.0 alpha:1];
+    // 设置导航条颜色
+    self.navigationController.navigationBar.barTintColor = LZRGBColor(243, 243, 247);
+
     
-    self.navigationController.navigationBar.barTintColor = self.view.backgroundColor = [UIColor colorWithRed:243/255.0 green:243/255.0 blue:247/255.0 alpha:1];
-;
-    //不为半透明
-    //self.navigationController.navigationBar.translucent = NO;
-    self.view.backgroundColor = [UIColor colorWithRed:243/255.0 green:243/255.0 blue:247/255.0 alpha:1];
+    // 导航条不为半透明
+    self.navigationController.navigationBar.translucent = NO;
+    
+    // 设置导航条内容
     self.navigationItem.title = @"设置朋友";
+    
+    // 设置下一个控制器返回按钮内容
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleDone target:nil action:nil];
 }
 
 

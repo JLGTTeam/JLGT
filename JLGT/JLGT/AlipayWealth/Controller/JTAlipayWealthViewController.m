@@ -28,10 +28,6 @@
     if (_alertView == nil) {
         self.alertView = [[ UIAlertView alloc ] initWithTitle : @"请输入要修改的数字" message : nil delegate : self cancelButtonTitle : nil otherButtonTitles : @" 确定 " , nil ];
         self.alertView.alertViewStyle = UIAlertViewStylePlainTextInput;
-        if (_field == nil) {
-            _field = [[UITextField alloc]init];
-            _field.leftView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, 20)];
-        }
          _field =  [self.alertView textFieldAtIndex:0];
         _field.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
     }

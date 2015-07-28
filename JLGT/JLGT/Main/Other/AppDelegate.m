@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "JTHomeViewController.h"
+#import "JTNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +22,7 @@
 
     self.window.backgroundColor = [UIColor whiteColor];
     JTHomeViewController *homeVC = [[JTHomeViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    JTNavigationController *nav = [[JTNavigationController alloc] initWithRootViewController:homeVC];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;

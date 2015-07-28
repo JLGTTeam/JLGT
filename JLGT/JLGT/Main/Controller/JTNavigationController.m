@@ -8,11 +8,11 @@
 
 #import "JTNavigationController.h"
 
-@interface JLGTNavigationController ()
+@interface JTNavigationController ()
 
 @end
 
-@implementation JLGTNavigationController
+@implementation JTNavigationController
 
 + (void)initialize
 {
@@ -40,6 +40,7 @@
     [item setTintColor:[UIColor whiteColor]];
 }
 
+// 调用子控制器的控制状态栏方法preferredStatusBarStyle
 - (UIViewController *)childViewControllerForStatusBarStyle
 {
     return self.topViewController;

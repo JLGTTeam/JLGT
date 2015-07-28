@@ -42,6 +42,7 @@
     // 设置下一个控制器返回按钮内容
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleDone target:nil action:nil];
 }
+
 /** 设置状态栏为白色 */
 -(UIStatusBarStyle)preferredStatusBarStyle
 {

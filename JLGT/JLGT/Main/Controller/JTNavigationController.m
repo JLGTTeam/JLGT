@@ -40,4 +40,8 @@
     [item setTintColor:[UIColor whiteColor]];
 }
 
+- (UIViewController *)childViewControllerForStatusBarStyle
+{
+    return self.topViewController;
+}
 @end

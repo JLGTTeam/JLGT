@@ -29,12 +29,12 @@
 /** 设置导航栏 */
 - (void)setUpNavBar
 {
-    // 设置导航条颜色
-    self.navigationController.navigationBar.barTintColor = LZRGBColor(231, 71, 63);
-    
-    
-    // 导航条不为半透明
-    self.navigationController.navigationBar.translucent = NO;
+//    // 设置导航条颜色
+//    self.navigationController.navigationBar.barTintColor = LZRGBColor(231, 71, 63);
+//    
+//    
+//    // 导航条不为半透明
+//    self.navigationController.navigationBar.translucent = NO;
     
     // 设置导航条内容
     self.navigationItem.title = @"个人红包";

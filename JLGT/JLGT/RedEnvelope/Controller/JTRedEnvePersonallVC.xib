@@ -15,7 +15,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jkK-nU-CJd">
-                    <rect key="frame" x="0.0" y="41" width="600" height="40"/>
+                    <rect key="frame" x="0.0" y="105" width="600" height="40"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金额" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gB-cl-s2w">
                             <rect key="frame" x="20" y="9" width="34" height="21"/>
@@ -50,7 +50,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zht-Ar-tvo">
-                    <rect key="frame" x="0.0" y="186" width="600" height="40"/>
+                    <rect key="frame" x="0.0" y="250" width="600" height="40"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="红包主题" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziT-cB-AvI">
                             <rect key="frame" x="20" y="11" width="68" height="21"/>
@@ -84,7 +84,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="obl-6y-N5T">
-                    <rect key="frame" x="0.0" y="101" width="600" height="65"/>
+                    <rect key="frame" x="0.0" y="165" width="600" height="65"/>
                     <subviews>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sOY-9O-ViP">
                             <rect key="frame" x="0.0" y="-101" width="26" height="30"/>
@@ -98,25 +98,25 @@
                     </constraints>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="准备发给" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMY-Lq-iIT">
-                    <rect key="frame" x="234" y="10" width="68" height="21"/>
+                    <rect key="frame" x="234" y="74" width="68" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2i-j4-Gtp">
-                    <rect key="frame" x="307" y="21" width="0.0" height="0.0"/>
+                    <rect key="frame" x="307" y="85" width="0.0" height="0.0"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥0.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qm-7f-Qbi">
-                    <rect key="frame" x="252" y="266" width="96" height="40"/>
+                    <rect key="frame" x="252" y="330" width="96" height="40"/>
                     <fontDescription key="fontDescription" type="system" pointSize="33"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnF-7d-dw7">
-                    <rect key="frame" x="20" y="326" width="560" height="30"/>
+                    <rect key="frame" x="20" y="390" width="560" height="30"/>
                     <state key="normal" title="发红包">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -133,7 +133,7 @@
                 <constraint firstItem="FMY-Lq-iIT" firstAttribute="centerY" secondItem="M2i-j4-Gtp" secondAttribute="centerY" id="FMa-eW-qtd"/>
                 <constraint firstItem="obl-6y-N5T" firstAttribute="leading" secondItem="62W-NO-sXM" secondAttribute="leading" id="HS2-dZ-bD3"/>
                 <constraint firstItem="zht-Ar-tvo" firstAttribute="leading" secondItem="62W-NO-sXM" secondAttribute="leading" id="dMy-xq-pye"/>
-                <constraint firstItem="FMY-Lq-iIT" firstAttribute="top" secondItem="62W-NO-sXM" secondAttribute="top" constant="10" id="gm7-Cm-Pxp"/>
+                <constraint firstItem="FMY-Lq-iIT" firstAttribute="top" secondItem="62W-NO-sXM" secondAttribute="top" constant="74" id="gm7-Cm-Pxp"/>
                 <constraint firstItem="jkK-nU-CJd" firstAttribute="top" secondItem="FMY-Lq-iIT" secondAttribute="bottom" constant="10" id="jo0-Kl-VmJ"/>
                 <constraint firstItem="gnF-7d-dw7" firstAttribute="leading" secondItem="62W-NO-sXM" secondAttribute="leading" constant="20" id="lNb-iP-gUM"/>
                 <constraint firstAttribute="trailing" secondItem="obl-6y-N5T" secondAttribute="trailing" id="mq1-Mh-fn4"/>

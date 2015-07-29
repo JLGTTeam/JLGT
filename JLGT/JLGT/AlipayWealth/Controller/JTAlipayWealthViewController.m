@@ -32,6 +32,10 @@
     [self alertView];
     self.title = @"财富";
     self.view.backgroundColor = [UIColor colorWithRed:241/255.0 green:242/255.0 blue:248/255.0 alpha:0.9];
+    
+    UIBarButtonItem *item0 = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"outViewProtect"] style:UIBarButtonItemStyleDone target:nil action:nil];
+    self.navigationItem.rightBarButtonItem = item0;
+
 }
 #pragma mark - 监听按钮点击
 - (IBAction)changeNumber:(UIButton *)sender {
@@ -83,5 +87,11 @@
     //  6.清空临时按钮
     _btn = nil;
     _field.text = nil;
+}
+
+
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
 }
 @end

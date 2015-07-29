@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "JTHomeViewController.h"
-#import "JTNavigationController.h"
+#import "LZTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -18,13 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // 创建窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-
-    self.window.backgroundColor = [UIColor whiteColor];
-    JTHomeViewController *homeVC = [[JTHomeViewController alloc] init];
-    JTNavigationController *nav = [[JTNavigationController alloc] initWithRootViewController:homeVC];
-    self.window.rootViewController = nav;
+    
+    // 设置窗口的根控制器
+    self.window.rootViewController =  [[LZTabBarController alloc] init];;
+    
+    // 显示窗口
     [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

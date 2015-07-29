@@ -42,6 +42,7 @@
 		C48633681B67679D00AACB28 /* JTUnreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48633651B67679D00AACB28 /* JTUnreadViewController.m */; };
 		C486336A1B6767CF00AACB28 /* expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = C48633691B6767CF00AACB28 /* expression.plist */; };
 		C486336D1B67680300AACB28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C486336C1B67680300AACB28 /* AppDelegate.m */; };
+		FD0C91E11B6890BC001112E2 /* LZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0C91E01B6890BC001112E2 /* LZTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +117,8 @@
 		C486336B1B67680300AACB28 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C486336C1B67680300AACB28 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D56598E242983DE70C48E303 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FD0C91DF1B6890BC001112E2 /* LZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTabBarController.h; sourceTree = "<group>"; };
+		FD0C91E01B6890BC001112E2 /* LZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabBarController.m; sourceTree = "<group>"; };
 		FD494FD02F919B3A14510425 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -326,6 +329,8 @@
 				C48633441B6766F800AACB28 /* JTBaseViewController.m */,
 				C48633451B6766F800AACB28 /* JTNavigationController.h */,
 				C48633461B6766F800AACB28 /* JTNavigationController.m */,
+				FD0C91DF1B6890BC001112E2 /* LZTabBarController.h */,
+				FD0C91E01B6890BC001112E2 /* LZTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -601,6 +606,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0C91E11B6890BC001112E2 /* LZTabBarController.m in Sources */,
 				55D3BB201B60735000AE7033 /* JTAlipayConversactionViewController.m in Sources */,
 				C480EB241B63D9A300978D62 /* JTAlipayFriendsMessageCell.m in Sources */,
 				C486336D1B67680300AACB28 /* AppDelegate.m in Sources */,

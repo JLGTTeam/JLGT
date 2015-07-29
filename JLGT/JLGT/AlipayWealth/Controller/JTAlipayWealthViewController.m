@@ -22,7 +22,7 @@
         self.alertView = [[ UIAlertView alloc ] initWithTitle : @"请输入要修改的数字" message : nil delegate : self cancelButtonTitle : nil otherButtonTitles : @" 确定 " , nil ];
         self.alertView.alertViewStyle = UIAlertViewStylePlainTextInput;
          _field =  [self.alertView textFieldAtIndex:0];
-        _field.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
+        _field.keyboardType = UIKeyboardTypeNumberPad;
     }
     return _alertView;
 }

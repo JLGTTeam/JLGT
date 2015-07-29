@@ -19,7 +19,7 @@
     // 设置导航栏主题
     UINavigationBar *navBar = [UINavigationBar appearance];
     // 设置背景颜色
-    [navBar setBarTintColor:[UIColor redColor]];
+    [navBar setBarTintColor:[UIColor colorWithRed:47/255.0 green:56/255.0 blue:70/255.0 alpha:1.0]];
 
     // 返回按钮箭头颜色
     [navBar setTintColor:[UIColor whiteColor]];

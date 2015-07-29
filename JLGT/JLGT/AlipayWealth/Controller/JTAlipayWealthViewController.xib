@@ -72,10 +72,10 @@
                                 <action selector="changeNumber:" destination="-1" eventType="touchUpInside" id="abz-9a-2qg"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pe4-ZN-etS">
+                        <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pe4-ZN-etS">
                             <rect key="frame" x="125" y="141" width="125" height="35"/>
                             <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                            <state key="normal" title="200">
+                            <state key="normal" title="200.01">
                                 <color key="titleColor" red="0.17254901959999999" green="0.17254901959999999" blue="0.17254901959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -294,8 +294,8 @@
                         <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckQ-7U-nqn">
                             <rect key="frame" x="15" y="27" width="360" height="44"/>
                             <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                            <state key="normal" title="0.00">
-                                <color key="titleColor" red="0.75294117647058822" green="0.75294117647058822" blue="0.75294117647058822" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="32.75">
+                                <color key="titleColor" red="0.98431372549019602" green="0.50588235294117645" blue="0.015686274509803921" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>

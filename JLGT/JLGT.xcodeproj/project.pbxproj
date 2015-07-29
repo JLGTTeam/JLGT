@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186EC6CF1B691B4B005D40EF /* JTUnreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC6CE1B691B4B005D40EF /* JTUnreadViewController.m */; };
+		186EC6D11B691B5B005D40EF /* JTUnreadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186EC6D01B691B5B005D40EF /* JTUnreadViewController.xib */; };
+		186EC6D41B691D6B005D40EF /* JTUnreadMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC6D31B691D6B005D40EF /* JTUnreadMessage.m */; };
+		186EC6DB1B691D79005D40EF /* JTUnreadMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC6D61B691D79005D40EF /* JTUnreadMessageCell.m */; };
+		186EC6DC1B691D79005D40EF /* JTUnreadMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186EC6D71B691D79005D40EF /* JTUnreadMessageCell.xib */; };
+		186EC6DD1B691D79005D40EF /* JTUnreadMessageEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EC6D91B691D79005D40EF /* JTUnreadMessageEditViewController.m */; };
+		186EC6DE1B691D79005D40EF /* JTUnreadMessageEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186EC6DA1B691D79005D40EF /* JTUnreadMessageEditViewController.xib */; };
 		557381D34CC4961F38671611 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD494FD02F919B3A14510425 /* libPods.a */; };
 		55CBCDE51B5E99F10070B557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CBCDE41B5E99F10070B557 /* main.m */; };
 		55CBCDF01B5E99F10070B557 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CBCDEF1B5E99F10070B557 /* Images.xcassets */; };
@@ -39,7 +46,6 @@
 		C48633581B67673200AACB28 /* JTHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C48633541B67673200AACB28 /* JTHomeViewController.xib */; };
 		C48633601B67677300AACB28 /* JTAlipayWealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C486335C1B67677300AACB28 /* JTAlipayWealthViewController.m */; };
 		C48633611B67677300AACB28 /* JTAlipayWealthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C486335D1B67677300AACB28 /* JTAlipayWealthViewController.xib */; };
-		C48633681B67679D00AACB28 /* JTUnreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48633651B67679D00AACB28 /* JTUnreadViewController.m */; };
 		C486336A1B6767CF00AACB28 /* expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = C48633691B6767CF00AACB28 /* expression.plist */; };
 		C486336D1B67680300AACB28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C486336C1B67680300AACB28 /* AppDelegate.m */; };
 		FD0C91E11B6890BC001112E2 /* LZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0C91E01B6890BC001112E2 /* LZTabBarController.m */; };
@@ -56,6 +62,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		186EC6CD1B691B4B005D40EF /* JTUnreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTUnreadViewController.h; sourceTree = "<group>"; };
+		186EC6CE1B691B4B005D40EF /* JTUnreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTUnreadViewController.m; sourceTree = "<group>"; };
+		186EC6D01B691B5B005D40EF /* JTUnreadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTUnreadViewController.xib; sourceTree = "<group>"; };
+		186EC6D21B691D6B005D40EF /* JTUnreadMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTUnreadMessage.h; sourceTree = "<group>"; };
+		186EC6D31B691D6B005D40EF /* JTUnreadMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTUnreadMessage.m; sourceTree = "<group>"; };
+		186EC6D51B691D79005D40EF /* JTUnreadMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTUnreadMessageCell.h; sourceTree = "<group>"; };
+		186EC6D61B691D79005D40EF /* JTUnreadMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTUnreadMessageCell.m; sourceTree = "<group>"; };
+		186EC6D71B691D79005D40EF /* JTUnreadMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTUnreadMessageCell.xib; sourceTree = "<group>"; };
+		186EC6D81B691D79005D40EF /* JTUnreadMessageEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTUnreadMessageEditViewController.h; sourceTree = "<group>"; };
+		186EC6D91B691D79005D40EF /* JTUnreadMessageEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTUnreadMessageEditViewController.m; sourceTree = "<group>"; };
+		186EC6DA1B691D79005D40EF /* JTUnreadMessageEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTUnreadMessageEditViewController.xib; sourceTree = "<group>"; };
 		55CBCDDF1B5E99F10070B557 /* JLGT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLGT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CBCDE31B5E99F10070B557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CBCDE41B5E99F10070B557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,8 +128,6 @@
 		C486335B1B67677300AACB28 /* JTAlipayWealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAlipayWealthViewController.h; sourceTree = "<group>"; };
 		C486335C1B67677300AACB28 /* JTAlipayWealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAlipayWealthViewController.m; sourceTree = "<group>"; };
 		C486335D1B67677300AACB28 /* JTAlipayWealthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTAlipayWealthViewController.xib; sourceTree = "<group>"; };
-		C48633641B67679D00AACB28 /* JTUnreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTUnreadViewController.h; sourceTree = "<group>"; };
-		C48633651B67679D00AACB28 /* JTUnreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTUnreadViewController.m; sourceTree = "<group>"; };
 		C48633691B6767CF00AACB28 /* expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expression.plist; sourceTree = "<group>"; };
 		C486336B1B67680300AACB28 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C486336C1B67680300AACB28 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +156,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		186EC6BE1B69197F005D40EF /* Unread */ = {
+			isa = PBXGroup;
+			children = (
+				186EC6BF1B69197F005D40EF /* Controller */,
+				186EC6C21B69197F005D40EF /* Model */,
+				186EC6C31B69197F005D40EF /* View */,
+			);
+			path = Unread;
+			sourceTree = "<group>";
+		};
+		186EC6BF1B69197F005D40EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				186EC6CD1B691B4B005D40EF /* JTUnreadViewController.h */,
+				186EC6CE1B691B4B005D40EF /* JTUnreadViewController.m */,
+				186EC6D01B691B5B005D40EF /* JTUnreadViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		186EC6C21B69197F005D40EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				186EC6D21B691D6B005D40EF /* JTUnreadMessage.h */,
+				186EC6D31B691D6B005D40EF /* JTUnreadMessage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		186EC6C31B69197F005D40EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				186EC6D51B691D79005D40EF /* JTUnreadMessageCell.h */,
+				186EC6D61B691D79005D40EF /* JTUnreadMessageCell.m */,
+				186EC6D71B691D79005D40EF /* JTUnreadMessageCell.xib */,
+				186EC6D81B691D79005D40EF /* JTUnreadMessageEditViewController.h */,
+				186EC6D91B691D79005D40EF /* JTUnreadMessageEditViewController.m */,
+				186EC6DA1B691D79005D40EF /* JTUnreadMessageEditViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		55CBCDD61B5E99F10070B557 = {
 			isa = PBXGroup;
 			children = (
@@ -169,7 +226,7 @@
 				C48633591B67677300AACB28 /* AlipayWealth */,
 				C48633501B67673200AACB28 /* Home */,
 				55D3BB121B60731700AE7033 /* AlipayConversation */,
-				C48633621B67679D00AACB28 /* Unread */,
+				186EC6BE1B69197F005D40EF /* Unread */,
 				55CBCDE21B5E99F10070B557 /* Supporting Files */,
 			);
 			path = JLGT;
@@ -428,39 +485,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		C48633621B67679D00AACB28 /* Unread */ = {
-			isa = PBXGroup;
-			children = (
-				C48633631B67679D00AACB28 /* Controller */,
-				C48633661B67679D00AACB28 /* Model */,
-				C48633671B67679D00AACB28 /* View */,
-			);
-			path = Unread;
-			sourceTree = "<group>";
-		};
-		C48633631B67679D00AACB28 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				C48633641B67679D00AACB28 /* JTUnreadViewController.h */,
-				C48633651B67679D00AACB28 /* JTUnreadViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		C48633661B67679D00AACB28 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C48633671B67679D00AACB28 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -550,7 +574,10 @@
 				C48633611B67677300AACB28 /* JTAlipayWealthViewController.xib in Resources */,
 				C46656CF1B66961500192FE9 /* JTEmojyIconView.xib in Resources */,
 				9AE286391B68E74E003CE922 /* JTRedEnvePersonallVC.storyboard in Resources */,
+				186EC6DC1B691D79005D40EF /* JTUnreadMessageCell.xib in Resources */,
 				55CBCDF31B5E99F10070B557 /* LaunchScreen.xib in Resources */,
+				186EC6DE1B691D79005D40EF /* JTUnreadMessageEditViewController.xib in Resources */,
+				186EC6D11B691B5B005D40EF /* JTUnreadViewController.xib in Resources */,
 				9AE2863E1B68E774003CE922 /* JTRedEnveEntryVC.xib in Resources */,
 				C409B6D31B63BD8B004D17CE /* JTAlipayFriendsViewController.xib in Resources */,
 				55CBCDF01B5E99F10070B557 /* Images.xcassets in Resources */,
@@ -608,6 +635,7 @@
 			files = (
 				FD0C91E11B6890BC001112E2 /* LZTabBarController.m in Sources */,
 				55D3BB201B60735000AE7033 /* JTAlipayConversactionViewController.m in Sources */,
+				186EC6DB1B691D79005D40EF /* JTUnreadMessageCell.m in Sources */,
 				C480EB241B63D9A300978D62 /* JTAlipayFriendsMessageCell.m in Sources */,
 				C486336D1B67680300AACB28 /* AppDelegate.m in Sources */,
 				55CBCDE51B5E99F10070B557 /* main.m in Sources */,
@@ -621,9 +649,11 @@
 				C486334E1B6766F800AACB28 /* JTBaseViewController.m in Sources */,
 				C48633571B67673200AACB28 /* JTHomeViewController.m in Sources */,
 				9AE286411B68E7DB003CE922 /* UITextView+PlaceHolder.m in Sources */,
+				186EC6CF1B691B4B005D40EF /* JTUnreadViewController.m in Sources */,
+				186EC6D41B691D6B005D40EF /* JTUnreadMessage.m in Sources */,
 				C486334C1B6766F800AACB28 /* UIImage+Category.m in Sources */,
+				186EC6DD1B691D79005D40EF /* JTUnreadMessageEditViewController.m in Sources */,
 				C486334A1B6766F800AACB28 /* UIBarButtonItem+Category.m in Sources */,
-				C48633681B67679D00AACB28 /* JTUnreadViewController.m in Sources */,
 				C409B6D21B63BD8B004D17CE /* JTAlipayFriendsViewController.m in Sources */,
 				9AE286381B68E74E003CE922 /* JTRedEnvePersonallVC.m in Sources */,
 				C480EB211B63D7D700978D62 /* JTAlipayFriendMessageModel.m in Sources */,

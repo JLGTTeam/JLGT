@@ -25,11 +25,15 @@
     NSString *name = self.friendTextField.text;
     NSLog(@"###########%@",name);
     
-    /* 创建要跳转的控制器 */
-    JTRedEnvePersonallVC *sendPersonallVC = [[JTRedEnvePersonallVC alloc] init];
-    sendPersonallVC.friendName = name;
+    /* 从sb创建控制器  */
+    // 1.加载storyboard(nil = [NSBundle mainBundle])
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"JTRedEnvePersonallVC" bundle:[NSBundle mainBundle]];
     
-    [self.navigationController pushViewController:sendPersonallVC animated:YES];
+    // 根据标示符加载控制器
+    JTRedEnvePersonallVC *redVC = [sb instantiateViewControllerWithIdentifier:@"JTRedEnve"];
+    redVC.friendName = name;
+    
+    [self.navigationController pushViewController:redVC animated:YES];
 }
 
 
@@ -57,12 +61,6 @@
 /** 设置导航栏 */
 - (void)setUpNavBar
 {
-//    // 设置导航条颜色
-//    self.navigationController.navigationBar.barTintColor = LZRGBColor(243, 243, 247);
-//
-//    
-//    // 导航条不为半透明
-//    self.navigationController.navigationBar.translucent = NO;
     
     // 设置导航条内容
     self.navigationItem.title = @"设置朋友";
@@ -71,5 +69,15 @@
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleDone target:nil action:nil];
 }
 
+/** 设置状态栏为白色 */
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+- (void)test
+{
+    /* 100 0000.00 */
+    NSString *mony = @"12";
+}
 
 @end
